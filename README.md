@@ -1,4 +1,6 @@
 # Weather App
+### Student: Aset Kuanyshbayev
+### Group: SE-2210
 This Weather App is a straightforward web application that offers real-time weather information based on the user's input city. It effectively employs the OpenWeatherMap API to retrieve weather data, OpenStreetMap for displaying a map, and Leaflet for map integration.
 
 ## Project Structure
