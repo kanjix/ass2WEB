@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #222;
+}
+
+
+
+/* Card styling */
+.card {
+    width: 90%; /* Make the card wider */
+    max-width: 1000px; /* Adjust the max-width as needed */
+    background: repeating-linear-gradient(120deg, #00bfff, #3399cc);
+    color: #fff;
+    margin: 50px  auto;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* Search bar styling */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+/* Weather information styling */
+.weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.weather-icon {
+    width: 200px; 
+    margin: 35px; 
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.col {
+    width: 48%; 
+    margin-bottom: 20px; 
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind,
+.coordinates,
+.feels-like,
+.pressure,
+.rain,
+.country {
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+#map { 
+    height: 500px; 
+}
+
+.titleContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px; 
+            background: repeating-linear-gradient(to bottom, black, #222);
+            margin: 0; 
+        }
+
+        .titleText {
+            font-size: 50px; 
+            color: #00bfff; 
+            font-family: 'Arial', sans-serif; 
+        }
