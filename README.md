@@ -7,6 +7,7 @@ The project structure is well-organized and adheres to a clean format:
 - script.js: Core JavaScript file containing the logic for fetching weather data and handling user interactions.
 - styles.css: CSS file for styling the HTML elements.
 - index.html: HTML file defining the structure and layout of the web application.
+
 **Getting Started**
 To run the Weather App locally, follow these steps:
 
@@ -20,8 +21,11 @@ Open the index.html file in a web browser.
 
 ## Features
 **Weather Information**: Fetches and displays real-time weather information based on the user's input city.
+
 **Map Integration**: Utilizes Leaflet and OpenStreetMap to display the geographical location of the city.
+
 **Timezone Information**: Retrieves timezone data using the TimezoneDB API to display the current time in the selected city.
+
 ## Usage 
 Enter the city name in the search input.
 Click the search button to fetch and display weather information.
