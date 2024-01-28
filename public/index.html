@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="media/icon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+</head>
+<body>
+
+<hr>
+
+<div id="map"></div>
+
+<hr>
+<hr>
+<hr>
+
+<div id="newsContainer"></div>
+
+
+<hr>
+<center>
+	<div class="titleContainer">
+        <h1 class="titleText">Weather App</h1>
+    </div>
+</center>
+
+
+
+<div class="card">
+	<div class="search">
+		<input type="text" placeholder="Enter your city name" spellcheck="false">
+		<button><img src="media/search.png" width="50px"></button>
+	</div>
+	<div class="error">
+		<p>Invalid city name.</p>
+	</div>
+	<div class="weather">
+		<img src="media/snow.png" class="weather-icon">
+		<h1 class="temp">-22°C</h1>
+		<h2 class="city">Astana</h2>
+		<div class="timezone-info">
+		</div>
+		<div class="details">
+			<div class="col">
+				<img src="media/humidity.png">
+				<div>
+					<p class="humidity">33%</p>
+					<p>Humidity</p>
+				</div>
+			</div>
+			<div class="col">
+				<img src="media/wind.png">
+				<div>
+					<p class="wind">33%</p>
+					<p>Wind</p>
+				</div>
+			</div>
+			<div class="col">
+            	<img src="media/coordinates.png">
+            	<div>
+                	<p class="coordinates">Lat: 0, Lon: 0</p>
+                	<p>Coordinates</p>
+            	</div>
+        	</div>
+        	<div class="col">
+            	<img src="media/feels-like.png">
+            	<div>
+                	<p class="feels-like">Feels like: 0°C</p>
+                	<p>Feels Like</p>
+            	</div>
+        	</div>
+        	<div class="col">
+            	<img src="media/pressure.png">
+            	<div>
+                	<p class="pressure">Pressure: 0 hPa</p>
+                	<p>Pressure</p>
+            	</div>
+        	</div>
+        	<div class="col">
+            	<img src="media/rain.png">
+            	<div>
+                	<p class="rain">0 mm</p>
+                	<p>Rain (last 3h)</p>
+            	</div>
+        	</div>
+        	<div class="col">
+            	<img src="media/country.png">
+            	<div>
+                	<p class="country">Country Code: XX</p>
+                	<p>Country Code</p>
+            	</div>
+        	</div>
+        	<div class="col">
+            	<img src="media/description.png">
+            	<div>
+                	<p class="description">Feels like: 0°C</p>
+                	<p>Feels Like</p>
+            	</div>
+        	</div>
+		</div>
+
+	</div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
